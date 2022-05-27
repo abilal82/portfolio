@@ -1,0 +1,26 @@
+Root Size  = 16 px by default 
+1.5 rem = 16px * 1.5
+
+div--> element size --> 32px
+1.5 em = 32 * 1.5
+
+2.5em = 20px * 2.5
+
+
+
+
+https://www.linkedin.com/in/nicholas-w-white/details/experience/
+
+This week's learnings
+
+--> ccs basics 
+             --> Units
+             --> position
+             --> 
+
+
+
+https://boxicons.com/
+https://fonts.google.com/specimen/Poppins?query=pop#glyphs
+https://flatuicolors.com/
+https://www.befunky.com/create/resize-image/
