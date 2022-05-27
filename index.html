@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!--Attach css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Javascript-->
+    <script ></script>
+
+</head>
+<body>
+  
+    <header class="l-header ">
+        <nav class="nav bd-grid">
+            <!--Image Div-->
+            <div><a href="#" class="nav__logo">Bilal Aslam</a></div>
+            <!--Navbar Div-->
+            <div class="nav__menu" #id="nav-menu" >
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link ">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link ">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link ">Conatct</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Home Section-->
+        <section class="home bd-grid " id="home">
+            <!--Title, Button, Logos-->
+            <div class="home_Content">
+
+                <!--Title & Button-->
+                <div class="home__data"> 
+                    <h1 class="home__title">I'm <span>Bilal</span> ,<br>
+                         Frontend Developer
+                        </h1>
+                    <a href="" class="btn__contact">Contact</a>
+                </div>
+
+                <!--Logos-->
+                <div class="home__social">
+                    <a href="#" class="home__social-icon"><i class='bx bxl-linkedin bx-tada' style='color:#0077b5'  ></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-facebook-circle bx-tada' style='color:#1c8ee5' ></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-github bx-tada' style='color:#0b0b0b'  ></i></a>
+                </div>
+
+            </div>
+
+            <!--Image -->
+            <div class="home__image"><img src="img/bilal-turkey.jpg"  alt=""></div>
+        </section>
+
+        <!--About Section-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <!--About Container-->
+            <div class="about__container bd-grid">
+                <!--Image-->
+                <div class="about__image">
+                    <img src="img/bilal-turkey-about3.jpg" alt="image">
+                </div>
+                <!--Text-->
+                <div class="about__text__section">
+                    <h3 class="section__subtitle">I'm Bilal Aslam</h3>
+                    <p class="about__text">
+                       A Computer science gratuate, An Asp.net Developer and alot of thing to say but have no time right now.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills Section-->
+
+        <section class="skills  section" id="skills">
+            <!--Section Heading-->
+            <h2 class="section__title">Skills</h2>
+
+            <!--skills percentage & Image Div-->
+            <div class="skills__container bd-grid" >
+                <!--Skills Div-->
+                <div class="skills__professtional">
+                    <!--Skills Heading-->
+                    <h3 class="section__subtitle">Professtional skills </h3>
+                    <p></p>
+
+                    <!--Skills Data Html-->
+                    <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-html5 skills__icon' style='color:#2488bd' ></i>
+                            <span class="skills__name">Html5</span>       
+                        </div>
+                        <div class="skills__bar  skills__html"></div>
+                        <div class="skills__percentage"><span>95%</span></div>
+                       
+                    </div>
+
+                     <!--Skills Data css-->
+                     <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-css3 skills__icon' style='color:#2488bd' ></i>
+                            <span class="skills__name">CSS</span>       
+                        </div>
+                        <div class="skills__bar  skills__css"></div>
+                        <div class="skills__percentage"><span>40%</span></div>
+                       
+                    </div>
+
+                    <!--Skills Data Javascript-->
+                    <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-javascript skills__icon' style='color:#2488bd' ></i>
+                            <span class="skills__name">Javascript</span>       
+                        </div>
+                        <div class="skills__bar  skills__javascript"></div>
+                        <div class="skills__percentage"><span>60%</span></div>
+                       
+                    </div>
+
+                    <!--skills data C#-->
+                    <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-visual-studio skills__icon' style='color:#076ea5'></i>
+                            <span class="skills__name"> C#</span>       
+                        </div>
+                        <div class="skills__bar  skills__csharp"></div>
+                        <div class="skills__percentage"><span>60%</span></div>
+                       
+                    </div>
+
+                    <!--skills data Asp.net mvc-->
+                    <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-visual-studio skills__icon' style='color:#2488bd' ></i>
+                            <span class="skills__name">Asp.net MVC 5</span>       
+                        </div>
+                       
+                        <div class="skills__bar  skills__aspnetmvc"></div>
+                        <div class="skills__percentage"><span>60%</span></div>
+                       
+                    </div>
+                    
+                     <!--skills data Sql Server -->
+                     <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxs-data skills__icon' style='color:#1c8ee5' ></i>
+                            <span class="skills__name">SQL Server</span>       
+                        </div>
+                        
+                        <div class="skills__bar  skills__SQLserver"></div>
+                        <div class="skills__percentage"><span>45%</span></div>
+                       
+                    </div>
+
+                    <!--skills data react -->
+                    <div class="skills__data">
+                        <div class="skills__type">
+                            <i class='bx bxl-react skills__icon' style='color:#2488bd' ></i>
+                            <span class="skills__name">React</span>       
+                        </div>
+                        <div class="skills__bar  skills__react"></div>
+                        <div class="skills__percentage"><span>Loading</span></div>
+                       
+                    </div>
+                </div>
+
+                <!--Image-->
+                <div class="skills__image">
+                    <img src="img/work3.jpg" alt="Skills image" >
+                </div>
+            </div>
+            
+        </section>
+
+        <!--Work Section-->
+        <section class="work section" id="work">
+            <h2 class="section__title">Work</h2>
+            <!--Work Photos-->
+            <div class="work_container bd-grid ">
+               
+                  <a href="" class="work__image"><img src="img/work1.jpg" alt="Demo1"></a>
+                  <a href="" class="work__image"><img src="img/work2.jpg"alt="Demo1"></a>
+                  <a href="" class="work__image"><img src="img/work3.jpg" alt="Demo1"></a>
+                  <a href="" class="work__image"><img src="img/work4.jpg" alt="Demo1"></a>
+                  <a href="" class="work__image"><img src="img/work5.jpg" alt="Demo1"></a>
+                  <a href="" class="work__image"><img src="img/work6.jpg" alt="Demo1"></a>
+                  
+                
+
+            </div>
+
+        </section>
+
+        <!--Contact Form Section-->
+
+        <section class="contact  section" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <!--Contact Form -->
+            <div class="contact__container  bd-grid">
+                <form action="" method="post" class="contact__form">
+                    <input type="Name" placeholder="Name" class="contact__input">
+                    <input type="Name" placeholder="Name".contact__input class="contact__input">
+                    <textarea shape="circle"  href="" alt="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Submit" class="contact__button " ></input>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer section-->
+    <footer class="footer">
+        <p class="footer__title">Bilal Aslam</p>
+        <div class="footer__social">
+          <a href="" class="footer__icon">
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="" class="footer__icon">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="" class="footer__icon">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+        <p class="footer__copy">Copyright @ Bilal Aslam</p>
+      </footer>
+
+      <script src="main.js"></script>
+</body>
+</html>
